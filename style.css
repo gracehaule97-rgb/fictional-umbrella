@@ -1,0 +1,90 @@
+<style>
+body {
+    font-family: Arial;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #007BFF;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Page content */
+h2 {
+    margin: 20px;
+    color: #333;
+}
+
+/* Form styling */
+form {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table */
+table {
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* Color coding for priority */
+.priority-High { color: white; background-color: #d9534f; font-weight: bold; padding: 5px; }
+.priority-Medium { color: black; background-color: #f0ad4e; padding: 5px; }
+.priority-Low { color: white; background-color: #5bc0de; padding: 5px; }
+
+/* Status colors */
+.status-Pending { font-style: italic; color: orange; }
+.status-Resolved { color: green; font-weight: bold; }
+</style>
